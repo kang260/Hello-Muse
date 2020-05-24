@@ -9,9 +9,7 @@ Contact kang260@purdue.edu - for bug reporting and Technical issues.
 -----------------
 INSTALLATION
 -----------------
-In this zip file should contain an apk file which you will put on your andriond device. From your andriod device you will locate the apk file 
-and install the app to your phone. When you launch the app for the first time you should be asked for several permissions, please allow them
-to have the app function properly.
+This file should contain an apk file which you will put on your andriond device. From your andriod device you will locate the apk file and install the app to your phone. When you launch the app for the first time you should be asked for several permissions, please allow them to have the app function properly.
 
 If not do the following:
 1.Hold down the app 
@@ -62,7 +60,6 @@ How to Search for Lyrics
 6.Type Artist Name
 7.Click Search
 8. Done
-
 
 -------------------
 LICENSE
