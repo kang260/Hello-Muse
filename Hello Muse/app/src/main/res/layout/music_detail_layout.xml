@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music2">
+
+    <ImageView
+        android:id="@+id/MusicImagee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="fitXY" />
+
+    <edu.purdue.zhan3050.cnit355final.RoundImageView
+        android:id="@+id/MusicImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button"
+        android:onClick="backToMain" />
+
+
+    <TextView
+        android:id="@+id/MusicName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="#332933"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/MusicArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MusicName"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#746274"
+        android:textSize="15dp"
+        android:typeface="normal" />
+
+    <edu.purdue.zhan3050.cnit355final.AudioControl
+        android:id="@+id/AudioControlId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:id="@+id/btnSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/AudioControlId"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:background="@color/blank"
+        android:text="Sleep Mode" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/AudioControlId"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="2dp"
+        android:background="@color/blank"
+        android:text="Listening Mode: Disabled" />
+
+</RelativeLayout>
